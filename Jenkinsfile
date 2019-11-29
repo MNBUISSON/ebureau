@@ -1,6 +1,9 @@
 pipeline {
 
     agent any 
+	tools {
+		maven "M3"
+	}
 
     stages {
 
@@ -10,6 +13,7 @@ pipeline {
 
                 // Etape Compile
 				echo  'Etape compile'
+		    		bat 'mvn clean compile'
 
             }
 
