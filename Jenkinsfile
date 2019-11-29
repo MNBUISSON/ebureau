@@ -8,7 +8,8 @@ pipeline {
 
             steps {
 
-                // echo  'Etape compile'
+                // Etape Compile
+				echo  'Etape compile'
 
             }
 
@@ -18,7 +19,8 @@ pipeline {
 
             steps {
 
-                // echo 'Etape test 1'
+                // Etape test
+				echo 'Etape test 1'
 
             }
 
@@ -28,7 +30,8 @@ pipeline {
 
             steps {
 
-                // echo 'Etape Packaging' 
+                // ceci est un commentaire
+				echo 'Etape Packaging' 
 
                 }
 		}
@@ -37,7 +40,8 @@ pipeline {
 
             steps {
 
-                // echo 'Etape Deploy'
+                // autre commentaire
+				echo 'Etape Deploy'
 
             }
 
