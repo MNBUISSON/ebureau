@@ -48,7 +48,7 @@ pipeline {
 
                 // autre commentaire
 				echo 'Etape Deploy'
-				bat copy C:\\opt\\Jenkins\\workspace\\ebureauPipeline\\target\\ebureau.war C:\\Program Files\\"Apache Software Foundation"\\"Tomcat 9.0"\webapps\ebureau.war 
+				bat 'copy "C:\\opt\\Jenkins\\workspace\\ebureauPipeline\\target\\ebureau.war" "C:\\Program Files\\Apache Software Foundation\\Tomcat 9.0\\webapps\\ebureau.war"'
 		    		echo "finished"
             }
 
