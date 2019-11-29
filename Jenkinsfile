@@ -25,6 +25,7 @@ pipeline {
 
                 // Etape test
 				echo 'Etape test 1'
+		    		bat 'mvn clean test'
 
             }
 
@@ -36,6 +37,7 @@ pipeline {
 
                 // ceci est un commentaire
 				echo 'Etape Packaging' 
+		    		bat 'mvn clean package'
 
                 }
 		}
